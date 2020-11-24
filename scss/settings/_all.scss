@@ -1,0 +1,27 @@
+@mixin flex-fs() {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+@mixin flex-center(){
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+@mixin flex-fcol(){
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+}
+@mixin bg-posysion(){
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@mixin flex-fsb(){
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
